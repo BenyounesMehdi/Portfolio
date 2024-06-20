@@ -15,6 +15,7 @@ function App() {
         </div>
       </div>
       
+      <div className='overflow-hidden'>
         <Navbar />
         <Hero />
         <About />
@@ -22,6 +23,7 @@ function App() {
         <Experiences />
         <Projects />
         <Contact />
+      </div>
     </div>
   )
 }
