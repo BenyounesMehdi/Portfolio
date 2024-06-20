@@ -97,7 +97,7 @@ function SecondCard ({title, image, description, technologies, delay}) {
             <div className="w-full md:w-2/3">
                 <p className="font-semibold text-2xl mb-2 text-white">{title}</p>
                 <p className="text-neutral-400 font-semibold ">{description}</p>
-                <div className="flex gap-2 mt-3">
+                <div className="flex gap-2 mt-3 flex-wrap">
                     {technologies.map((tech, key) => {
                         return <div key={key} className="text-purple-400 font-semibold px-2 py-1 rounded-lg bg-neutral-700">{tech}</div>
                     })}

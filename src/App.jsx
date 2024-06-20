@@ -15,8 +15,8 @@ function App() {
         </div>
       </div>
       
-      <div className='overflow-hidden'>
         <Navbar />
+      <div className='overflow-hidden container mx-auto'>
         <Hero />
         <About />
         <Technologies />
