@@ -5,6 +5,8 @@ import Hero from './sections/Hero'
 import Navbar  from './sections/Navbar'
 import Projects from './sections/Projects'
 import Technologies from './sections/Technologies'
+import { Analytics } from '@vercel/analytics/react';
+
 
 function App() {
 
@@ -24,6 +26,7 @@ function App() {
         <Projects />
         <Contact />
       </div>
+      <Analytics />
     </div>
   )
 }
